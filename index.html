@@ -7,12 +7,13 @@
     <title>🎇 Sprite Landing</title>
     <link href="css/flex.css" type="text/css" rel="stylesheet" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="preload" href="https://fast.fonts.net/cssapi/8a04dc22-85c7-4eaf-9d7a-6b23de89105b.css" as="style"/>
     <script src="java/javascript.js"></script>
 </head>
 <body>
     <div id="top">
         <header class="row">
-            <img src="css/images/colORLogo.png" width="150px">
+            <img id="headLogo" src="css/images/colORLogo.png">
             <nav>
                 <ul>
                     <li><a>PRODUCTS</a></li>
@@ -22,6 +23,13 @@
                 </ul>
             </nav>
         </header>
+    </div>
+    <div id="topLayer">
+        <img id="topLayerCan" src="css/images/topCan.png">
+        <div id="topLayerBusy">
+            <h1>SPRITE</h1>
+            <h2>Must we say more?</h2>
+        </div>
     </div>
 </body>
 </html>

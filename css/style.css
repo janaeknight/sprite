@@ -30,7 +30,7 @@ body {
         width: 150px;
     }
     nav {
-        width: 100%; margin: 20px 0;
+        width: 100%; margin: 20px 0; font-weight: bold;
         right: 0; text-align: right; margin-right: 30px;
     }
     header nav ul { list-style: none; }
@@ -38,15 +38,15 @@ body {
     nav a {
         background-color: var(--blue); color: snow;
         padding: 6px 8px; margin: auto 4px;
-        border-radius: 3px;
+        border-radius: 3px; font-style: italic; font-stretch: narrower;
     }
 
     #topLayer {
         display: flex; flex-direction: row;
-        width: 100vw; height: 500px;
+        width: 75vw; height: 500px;
         position: fixed; top: 130px;
         background-color: transparent;
-        z-index: 1;
+        z-index: 1; margin: 0 auto;
     }
     #topLayer #topLayerCan { height: 95%; margin-left: 50px; }
     #topLayer #topLayerBusy { width: 100%; height: inherit; }
